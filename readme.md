@@ -3,8 +3,8 @@
 
 
 ### Orjinal portları kullanıyorsanız ve herhangi bir script ile kurulum yapmadıysanız kullanın ...
-<code>wget -O sinyordes.sh https://raw.githubusercontent.com/sinyordes/cosmos-port/main/sinyordes.sh && chmod +x sinyordes.sh && ./sinyordes.sh
-</code>
+<pre class="notranslate"><code>wget -O sinyordes.sh https://raw.githubusercontent.com/sinyordes/cosmos-port/main/sinyordes.sh && chmod +x sinyordes.sh && ./sinyordes.sh
+</code></pre>
 
 Prox_App Port(Default- 26658)
 Laddr_Port(Default-26657)
