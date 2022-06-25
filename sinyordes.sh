@@ -32,7 +32,7 @@ echo  "Laddr2 Port(26656):"
 read LADDR2
 echo "Prometheus Port (Defaul-26660 ):"
 read PROM
-DATA=("."$PROJE"d")
+DATA=("."$PROJE)
 echo "App.toml Port 1 (Default-9090):"
 read APP1
 echo "App.Toml Port 2 (Default-9091):"
@@ -45,7 +45,7 @@ sed -i.bak -e "s%^address = \"0.0.0.0:9090\"%address = \"0.0.0.0:$APP1\"%; s%^ad
 
 sed -i.bak -e "s%^node = \"tcp://localhost:26657\"%node = \"tcp://localhost:$NODE\"%" $HOME/$DATA/config/client.toml
 
-systemctl restart $DATA
+systemctl restart $DATA"d"
 
 echo " "
 
@@ -53,4 +53,4 @@ echo "--------------------------------"
 echo "İşlem başarılı..."
 echo "--------------------------------"
 sleep 2
-journalctl -fu $DATA -o cat
+
