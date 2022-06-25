@@ -32,7 +32,7 @@ echo  "Laddr2 Port(26656):"
 read LADDR2
 echo "Prometheus Port (Defaul-26660 ):"
 read PROM
-DATA=("."$PROJE)
+DATA=("."$PROJE"d")
 echo "App.toml Port 1 (Default-9090):"
 read APP1
 echo "App.Toml Port 2 (Default-9091):"
