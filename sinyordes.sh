@@ -45,7 +45,7 @@ sed -i.bak -e "s%^address = \"0.0.0.0:9090\"%address = \"0.0.0.0:$APP1\"%; s%^ad
 
 sed -i.bak -e "s%^node = \"tcp://localhost:26657\"%node = \"tcp://localhost:$NODE\"%" $HOME/$DATA/config/client.toml
 
-systemctl restart $DATA"d"
+systemctl restart $PROJE"d"
 
 echo " "
 
